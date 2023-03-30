@@ -57,6 +57,7 @@ spec:
                   key: DB_USER
                   name: env-dev
           image: 819112041654.dkr.ecr.ap-south-1.amazonaws.com/demo_ecr_django:django_app1
+          #image: django_app1-app:latest
           name: app
           ports:
             - containerPort: 8000

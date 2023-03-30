@@ -18,3 +18,4 @@ RUN apk add --update --no-cache postgresql-client \
     && mkdir /app
 COPY ./app /app
 WORKDIR /app
+#CMD ["python", "/app/manage.py", "runserver", "0.0.0.0:8000"]
