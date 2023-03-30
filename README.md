@@ -1,4 +1,4 @@
-# Django Postgres Redis sample application
+# Django Postgres clery Redis sample application
 
 This is a sample application that has limited functionality like
 - create users form (stores in postgres DB)

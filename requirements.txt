@@ -4,3 +4,6 @@ psycopg2-binary
 redis
 celery
 pylint
+pylint-django
+pytest
+pytest-django
