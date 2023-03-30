@@ -1,0 +1,9 @@
+# Django Postgres Redis sample application
+
+This is a sample application that has limited functionality like
+- create users form (stores in postgres DB)
+- show list of users (django)
+- search list of users (uses redis cache)
+
+# objective
+Main objective is to dockerize this application and there by deploy to any kubernetes cluster
